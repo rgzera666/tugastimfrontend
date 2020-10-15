@@ -1,0 +1,51 @@
+@media(max-width: 1000px) {
+	.heading h1 {
+		font-size: 13px;
+		line-height:2;
+	}
+	.heading p {
+		font-size: 10px;
+	}
+	.menu-icon {
+	  display: block;
+	}
+	.kanan a {
+	 display: none;
+	}
+	
+	.lesson {
+		width: 50%;
+		margin-bottom: 50px;
+	}
+	.top-wrapper {
+	background-image: url(https://www.yworks.com/assets/images/support/COVID-19.bf2a287a.png);
+	width: cover;
+	}
+@media (max-width: 670px) {
+	top-wrapper {
+	background-image: url(https://www.yworks.com/assets/images/support/COVID-19.bf2a287a.png);
+	width: auto;
+	text-align: center;
+	}
+	.heading h1 {
+	font-size:10px;
+	float:left;
+	}
+	.heading p {
+		font-size: 8px;
+		float: left;
+	}
+	.kanan {
+		display: none;
+	}
+	.menu-icon {
+    display: block;
+    float: right;
+	}
+	.lesson {
+		width: 100%;
+	}
+	.lesson p {
+		font-size: 23px;
+		text-align: center;
+  }
